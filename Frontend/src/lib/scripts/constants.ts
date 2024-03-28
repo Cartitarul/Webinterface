@@ -1,5 +1,5 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://moldovarpg.netlify.app"
-export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://moldovarpg.netlify.app"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://moldovarpg.com:9990"
+export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://moldovarpg.com/discord"
 
 export function get(path: string) {
 
